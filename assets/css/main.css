@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1010px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    /* use to make block elements inline */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    border: 1px solid #000;
+    min-height: 100px;
+  }
+  
+  .col-12 {
+    width: calc(100% / 12 * 12);
+    background-color: blue;
+  }
+  
+  .col-6 {
+    width: calc(100% / 12 * 6);
+    background-color: violet;
+  }
+  
+  .col-4 {
+    width: calc(100% / 12 * 4);
+    background-color: green;
+  }
+  
+  .col-3 {
+    width: calc(100% / 12 * 3);
+    background-color: yellow;
+  }
+  /* mobile-view */
+  @media (min-width: 576px) {
+    .col-sm-12 {
+      width: calc(100% / 12 * 12);
+      background-color: blue;
+    }
+  
+    .col-sm-6 {
+      width: calc(100% / 12 * 6);
+      background-color: violet;
+    }
+  
+    .col-sm-4 {
+      width: calc(100% / 12 * 4);
+      background-color: green;
+    }
+  
+    .col-sm-3 {
+      width: calc(100% / 12 * 3);
+      background-color: yellow;
+    }
+  }
+  /* tablet-view */
+  @media (min-width: 768px) {
+    .col-md-12 {
+      width: calc(100% / 12 * 12);
+      background-color: blue;
+    }
+  
+    .col-md-6 {
+      width: calc(100% / 12 * 6);
+      background-color: violet;
+    }
+  
+    .col-md-4 {
+      width: calc(100% / 12 * 4);
+      background-color: green;
+    }
+  
+    .col-md-3 {
+      width: calc(100% / 12 * 3);
+      background-color: yellow;
+    }
+  }
+  /* laptop-view */
+  @media (min-width: 992px) {
+    .col-lg-12 {
+      width: calc(100% / 12 * 12);
+      background-color: blue;
+    }
+  
+    .col-lg-6 {
+      width: calc(100% / 12 * 6);
+      background-color: violet;
+    }
+  
+    .col-lg-4 {
+      width: calc(100% / 12 * 4);
+      background-color: green;
+    }
+  
+    .col-lg-3 {
+      width: calc(100% / 12 * 3);
+      background-color: yellow;
+    }
+  }
+  /* pc-view */
+  @media (min-width: 1200px) {
+    .col-xl-12 {
+      width: calc(100% / 12 * 12);
+      background-color: blue;
+    }
+  
+    .col-xl-6 {
+      width: calc(100% / 12 * 6);
+      background-color: violet;
+    }
+  
+    .col-xl-4 {
+      width: calc(100% / 12 * 4);
+      background-color: green;
+    }
+  
+    .col-xl-3 {
+      width: calc(100% / 12 * 3);
+      background-color: yellow;
+    }
+  }
+  
