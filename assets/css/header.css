@@ -1,0 +1,18 @@
+.portfolio-nav {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.portfolio-nav__ul {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.portfolio-nav__list-items > a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
